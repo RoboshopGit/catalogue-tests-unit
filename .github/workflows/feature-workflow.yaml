@@ -4,7 +4,7 @@ on: [push]
   
   #push:
 jobs:
-  # Job  name
+  # Job name
   feature-pipeline: 
     if: github.ref_name != 'main'
     uses: RoboshopGit/workflows/.github/workflows/nodejs-feature-pipeline.yaml@main
